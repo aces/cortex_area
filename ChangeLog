@@ -1,3 +1,6 @@
-2005-04-29	Claude Lepage	<claude@bic.mni.mcgill.ca>
+2005-11-14	Claude Lepage	<claude@bic.mni.mcgill.ca>
+	* Added support to write area around a node instead
+          of a zone (for Oliver)
 
-	* Conversion from Matlab to C.
+2005-05-10	Claude Lepage	<claude@bic.mni.mcgill.ca>
+	* Initial implementation
