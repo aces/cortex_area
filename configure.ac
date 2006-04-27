@@ -1,9 +1,17 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_INIT
+# Require autoconf 2.57 or newer.
+AC_PREREQ([2.57])
+
+# The arguments are package name, and package version.
+AC_INIT([cortex_area],[1.1.1],[Claude Lepage <claude@bic.mni.mcgill.ca>])
 AC_CONFIG_SRCDIR([src/cortex_area.c])
-AM_INIT_AUTOMAKE(cortex_area, 1.1)
-AM_CONFIG_HEADER(config.h)
+
+AM_INIT_AUTOMAKE
+
+# The argument is the name of the generated header file.
+# It is recommended to leave it as "config.h".
+AC_CONFIG_HEADER([config.h])
 
 smr_WITH_BUILD_PATH
 
@@ -19,4 +27,5 @@ AC_PATH_PROGS(PERL, perl5 perl)
 mni_REQUIRE_BICPL
 
 AC_CONFIG_FILES([Makefile src/Makefile])
-AC_OUTPUT
+AC_OUTPUT(epm-header)
+

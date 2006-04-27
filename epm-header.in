@@ -1,0 +1,9 @@
+%product cortex_area
+%copyright 2000-2006 Claude Lepage
+%vendor McConnell Brain Imaging Centre
+%packager Claude Lepage <claude@bic.mni.mcgill.ca>
+%license COPYING
+%readme README
+%description Compute area of defined zones on the cortex
+%version @VERSION@
+%requires bicpl

@@ -1,2 +1,12 @@
-New
+
+New in Release 1.1.1
+
+* epm-header for binary builds and packaging for minc2 m4 files
+
+New in Release 1.1
+
+* Added support to write area around a node instead of a zone
+
+New in Release 1.0
+
 * initial implementation
