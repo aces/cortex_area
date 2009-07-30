@@ -18,14 +18,9 @@
               VERSION 1.1  Nov, 2005 Add support to print area at each
                                      vertex in .txt file (Claude Lepage)
 
-   COPYRIGHT: 
-              Permission to use, copy, modify, and distribute this
-              software and its documentation for any purpose and without
-              fee is hereby granted, provided that the above copyright
-              notice appear in all copies.  The author and McGill University
-              make no representations about the suitability of this
-              software for any purpose.  It is provided "as is" without
-              express or implied warranty.
+   COPYRIGHT: Copyright Alan C. Evans
+              Professor of Neurology
+              McGill University
 */
 
 #include <stdio.h>
@@ -168,7 +163,8 @@ int main( int argc, char * argv[] ) {
 private void usage( char * executable_name ) {
 
   STRING  usage_format = "\
-Usage: %s -surface file.obj [-zone file.txt] [-output file.out]\n\n";
+Usage: %s -surface file.obj [-zone file.txt] [-output file.out]\n\n\
+Copyright Alan C. Evans\nProfessor of Neurology\nMcGill University\n";
 
   print_error( usage_format, executable_name );
 }
