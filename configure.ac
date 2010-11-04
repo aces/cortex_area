@@ -4,7 +4,7 @@ dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ([2.57])
 
 # The arguments are package name, and package version.
-AC_INIT([cortex_area],[1.2.0],[Claude Lepage <claude@bic.mni.mcgill.ca>])
+AC_INIT([cortex_area],[1.3.0],[Claude Lepage <claude@bic.mni.mcgill.ca>])
 AC_CONFIG_SRCDIR([src/cortex_area.c])
 
 AM_INIT_AUTOMAKE
